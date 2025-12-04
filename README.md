@@ -52,7 +52,3 @@ python bot\telegram_bot.py --token "<TG-TOKEN>" --model models\calibrated_model_
 - Скрипты: `scripts/` (download, prepare, train, evaluate, run_full_pipeline)
 - Телеграм-бот: `bot/telegram_bot.py`
 - Анализ: `notebooks/analysis.ipynb`
-
-## Ручная проверка и быстрая инструкция
-
-Подробные пошаговые инструкции по запуску (виртуальное окружение, скачивание данных, обучение, оценка, консольное приложение, Telegram-бот) находятся в `docs/manual_testing.md`.
