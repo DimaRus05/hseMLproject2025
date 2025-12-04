@@ -1,0 +1,21 @@
+# Ignore downloaded datasets and caches
+/data/
+
+# HuggingFace cache and dataset shards
+/data/**/hf_cache/
+**/*.arrow
+**/*.parquet
+
+# Ignore model artifacts by default (use Git LFS if you want to keep models in repo)
+/models/*.joblib
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+Thumbs.db
+.DS_Store
